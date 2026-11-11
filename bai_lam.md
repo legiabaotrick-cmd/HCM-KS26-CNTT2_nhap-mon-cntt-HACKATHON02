@@ -176,7 +176,7 @@ Property :
 
 ### Báo cáo lỗi gửi trưởng nhóm
 
-- **Context:** Mở web/index.html bằng Chrome, trang Soundlab-Phòng thu âm; đã sửa logo nhưng bảng giá thuê xe vẫn trống.
+- **Context:** Mở web/index.html bằng Chrome, trang Soundlab-Phòng thu âm; đã sửa logo nhưng bảng giá thu âm vẫn trống.
 - **Expected:** Bảng giá hiển thị 3 dòng dữ liệu (mã gói, gói thu, giá/giờ).
 - **Actual:** Bảng chỉ có dòng tiêu đề; Console báo lỗi đỏ.
 - **Log:** Uncaught ReferenceError: hienThiGoiThuAm is not defined at app.js:18
